@@ -1,0 +1,73 @@
+body{
+    background-color: bisque;
+}
+.contenedor{
+    
+    width:50%;
+    display: flex;
+    margin: auto;
+    border-radius: 7px;
+    box-shadow: 0px 14px 32px 0px rgba(0,0,0,0.5);
+    overflow: hidden;
+    box-sizing: border-box;
+    
+}
+.contenedor .img{
+    width:50%;
+}
+ .imagen .img{
+    width:100%;
+    vertical-align: top;
+}
+.información{
+    width:460px;
+    border-radius: 0 7px 10px 7px;
+    background: white;
+}
+.texto{
+    width: 90%;
+}
+.texto h1{
+    margin-left: 38px;
+    padding-right: 52px;
+    font-size: 34px;
+    
+    text-align: center;
+}
+.texto h1, .Siguiente-boton{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.texto h2{
+    margin: 0 0 47px 38px;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+.boton {
+    height: 103px;
+    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+}
+.boton a{
+    height: 50px;
+    width: 175px;
+    border-radius: 60px;
+    font-family: initial;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color:lavenderblush;
+    background:lightblue;
+    cursor: pointer;
+    text-decoration:none ;
+    text-align: center;
+    line-height: 50px;
+}
+.boton a:hover{
+    background:crimson ;
+}
+@media screen and (min-width:px){
+    .contenedor{
+        flex-flow: column wrap
+    }
+}
